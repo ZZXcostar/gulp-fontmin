@@ -1,0 +1,25 @@
+{
+  "name": "dongrichborui",
+  "scripts": {
+    "build": "node ./extractCN.js && gulp fontspider "
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^7.4.0",
+    "gulp": "^3.9.1",
+    "gulp-font-spider": "^0.3.6",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack-bundle-analyzer": "^4.3.0"
+  }
+}
